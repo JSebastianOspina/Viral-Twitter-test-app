@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col w-full" :style="{height:height}">
+  <div class="flex flex-col w-full intento">
     <div class="flex-auto">
       <div
         class="bg-cover relative w-full h-full flex flex-col justify-center"
@@ -51,15 +51,7 @@
 
 <script>
 export default {
-  data(){
-    return{
-      height:'731px'
-    }
-  },
-  beforeMount(){
-    this.height= window.innerHeight+'px';
-  },
- 
+
   head() {
     return {
       title: this.quiz,
@@ -81,6 +73,13 @@ export default {
 </script>
 
 <style>
+.intento{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 .custom-shape-divider-bottom-1610683240 {
   position: absolute;
   bottom: 0;
