@@ -59,12 +59,12 @@ export default {
         {
           hid: "description",
           name: "description",
-          content: "Receta de " + this.$router.param.quiz,
+          content: "Receta de " + this.$route.params.quiz,
         },
         {
           hid: "og:description",
           name: "og:description",
-          content: "Receta de " + this.$router.param.quiz,
+          content: "Receta de " + this.$route.params.quiz,
         },
       ],
     };
