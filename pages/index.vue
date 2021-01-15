@@ -22,7 +22,7 @@
         >
           GitHub
         </a>
-        <nuxt-link to="/test/hola"> Clic para ver la magia </nuxt-link>
+        <NuxtLink to="/test/hola"> Clic para ver la magia </NuxtLink>
       </div>
     </div>
   </div>
