@@ -51,7 +51,9 @@
 
 <script>
 export default {
-
+  created(){
+    console.log(this.$route.params.quiz);
+  },
   head() {
     return {
       title: this.quiz,
